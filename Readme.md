@@ -5,6 +5,7 @@ Subject:
 This is the boilerplate for the Metric-Imperial Converter project. Instructions for building your project can be found at https://www.freecodecamp.org/learn/quality-assurance/quality-assurance-projects/metric-imperial-converter
 
 
+
 **Note** This project's tests do not work when using glitch.com.
 
 Complete the necessary conversion logic in /controllers/convertHandler.js
@@ -12,6 +13,7 @@ Complete the necessary routes in /routes/api.js
 Copy the sample.env file to .env and set the variables appropriately
 To run the tests automatically, add NODE_ENV=test in your .env file
 To run the tests in the console, use the command npm run test.
+
 
 
 Write the following tests in tests/1_unit-tests.js:
@@ -34,6 +36,7 @@ Write the following tests in tests/1_unit-tests.js:
     convertHandler should correctly convert kg to lbs.
 
 
+
 Write the following tests in tests/2_functional-tests.js:
 
     Convert a valid input such as 10L: GET request to /api/convert.
@@ -41,6 +44,7 @@ Write the following tests in tests/2_functional-tests.js:
     Convert an invalid number such as 3/7.2/4kg: GET request to /api/convert.
     Convert an invalid number AND unit such as 3/7.2/4kilomegagram: GET request to /api/convert.
     Convert with no number such as kg: GET request to /api/convert.
+
 
 
 **Tests**
